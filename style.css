@@ -1,0 +1,639 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* --- Container Size --- */
+
+.container 
+{
+    width:80%;
+    margin: auto;
+}
+/* --- Container Size --- */
+
+
+/* --- header  --- */
+header
+{
+    background-color: #23252A;
+    height: 70px;
+    width: 100%;
+}
+header .logo h2 a
+{
+    color: #ffffff;
+    text-decoration: none;
+    float: left;
+    padding-top: 8px;
+    font-size: 40px;
+}
+header .logo h2 span 
+{
+    color:red;
+}
+header .logo h2 span:nth-child(2)
+{
+    color: #bf7b00;
+}
+header nav ul 
+{
+    float: right;
+    list-style: none;
+    padding-top: 24px;
+}
+header nav ul li 
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+header nav ul li:nth-child(4) 
+{
+    margin-right: 0;
+}
+header nav ul li a
+{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.4s ease;
+}
+header nav ul li a:hover
+{
+    padding-right: 2px;
+    color:red;
+}
+
+/* --- header  --- */
+
+/* --- site-show  --- */
+.site-show
+{
+    height: 500px;
+    background-image: url("https://i.postimg.cc/ZKrxKpXh/museum2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.site-show .site-show-content
+{
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 100px;
+    width: 50%;
+}
+.site-show .site-show-content h2
+{
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.site-show .site-show-content p
+{
+    letter-spacing: 2px;
+    line-height: 1.5em;
+}
+.site-show .site-show-content a 
+{
+    height: 45px;
+    width: 200px;
+    display: inline-block;
+    line-height: 45px;
+    margin-top: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #6b0308;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+
+.btn.btn-green {
+    height: 34px;
+    width: 200px;
+    display: inline-block;
+    line-height: 34px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #6b0308;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+
+#About-us .about-title h2 
+{
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+#About-us .about-title h2 span
+{
+    color: red;
+}
+#About-us .about-title h2 span:nth-child(2)
+{
+    color: #bf7b00;
+}
+#About-us .about-title p 
+{
+    width: 60%;
+    letter-spacing: 1px;
+    margin-top: 12px;
+}
+#About-us .about-boxes
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns:  auto auto;
+    grid-column-gap: 40px;
+}
+
+#About-us .about-boxes .about-box img 
+{
+    width: 90px;
+    padding: 1px;
+    border: 0.5px solid black;
+    cursor: pointer;    
+}
+#About-us .about-boxes .about-box img:hover
+{
+    box-shadow: inset 0 0 15px #bf7b00;
+}
+
+#About-us .about-boxes .about-box 
+{
+    margin-bottom: 20px;
+}
+#About-us .about-boxes .about-box .box-text
+{
+    display: inline-block;
+    position: relative;
+    top: -23px;
+    margin-left: 10px;
+}
+#About-us .about-boxes .about-box .box-text h3 
+{
+    color: red;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* --- About Us  --- */
+
+/* --- Blog  --- */
+
+#blog
+{
+    height: auto;
+    background-color: #23252A;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+#blog h2 
+{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 37px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+#blog h2 span 
+{
+    color: red;
+}
+#blog .blog-box 
+{
+    display: flex;
+    margin-bottom: 40px;
+}
+#blog .blog-box img
+{
+    width: 55%;
+}
+#blog .blog-box p
+{
+    color: #ffffff;
+    padding: 10px 20px 0 20px;
+    letter-spacing: 2px;
+    line-height: 2em;
+}
+#blog .blog-box p a
+{
+    color: red;
+    text-decoration: none;
+    display: block;
+}
+#blog .blog-box p span 
+{
+    color: red;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/* --- Blog  --- */
+
+
+/* --- Gallery  --- */
+
+#gallery
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#gallery h3 
+{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#gallery h3 span
+{
+    color: red;
+}
+#gallery .gallery-sec 
+{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+}
+.item1
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.item2
+{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.item3
+{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.item4
+{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+.item5
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+.item6
+{
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+ 
+#gallery .gallery-sec img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* --- Gallery  --- */
+
+/* --- footer  --- */
+footer
+{
+    background-color: #23252A;
+    padding: 30px 0 30px 0;
+}
+footer .footer-boxs
+{
+    display: flex;
+}
+footer .map-box 
+{
+    width: 100%;
+}
+footer .About-box
+{
+ 
+     width: 100%;
+}
+footer .social-box 
+{
+    width: 100%;
+}
+footer .map-box h4
+{
+    color: red;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+footer .map-box ul 
+{
+    list-style: none;
+}
+footer .map-box ul li
+{
+    margin-bottom: 20px;
+}
+footer .map-box ul li a 
+{
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    transition: all 0.4 ease;
+}
+footer .map-box ul li a:hover 
+{
+    text-decoration: underline;
+    color: red;
+    padding-left: 1px;
+}
+footer .About-box h4 
+{
+    color: red;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+footer .About-box p
+{
+    color: #ffffff;
+    letter-spacing: 1px;
+    line-height: 1.4em;
+    width: 250px;
+}
+
+footer .social-box h4 
+{
+    color: red;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+footer .social-box ul 
+{
+    list-style: none;
+}
+
+footer .social-box ul li
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer .social-box ul li a img
+{
+    width: 40px ;
+    padding: 3px;
+}
+footer .social-box ul li a img:hover
+{
+    background-color: rgba(58, 58, 58, 0.5);
+    border-radius: 10%;
+}
+
+footer hr 
+{
+    margin: 10px 0 10px 0;
+}
+footer .copy-right
+{
+    text-align: center;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+/* --- footer  --- */
+
+/*  ----  Media Query ---- */
+
+@media screen and (max-width: 767px) {
+    header
+    {
+        height: 230px; 
+    }
+    header .logo
+    {   
+        padding: 0 0 0 33%;
+    }
+    header .logo h2 a
+    {
+        font-size: 35px;
+    }
+    header nav ul 
+    {
+        padding-top: 47px;
+        margin: -35px 146px;
+    }
+    header nav ul li
+    {
+        display: block;
+        margin-bottom: 15px;
+       
+    }
+    header nav ul li a
+    {
+        display: block;
+        transition: none;
+    }
+    header nav ul li a:hover
+    {
+        padding-right:  0;
+    }
+    
+    /*  ----  Media site Show  ----- */
+
+    .site-show 
+    {
+        height: auto;
+    }
+    .site-show .site-show-content
+    {
+        padding-top: 56px;
+    }
+    .site-show .site-show-content a:last-child
+    {
+        margin-bottom: 20px;
+    }
+    /* --- Services  --- */
+
+    #About-us .about-boxes
+    {
+        display: grid;
+        grid-template-columns:  auto;
+        grid-row-gap: 20px;
+    }
+    #About-us .about-title h2
+    {
+        font-size: 1.5em;
+    }
+    #About-us .about-title p 
+    {
+        width: 100%;
+    }
+    #About-us .about-boxes .about-box .box-text 
+    {
+        display: block;
+        position: relative;
+        top: 10px;
+    }
+    
+
+    /*  ----  Stories ----- */
+    #blog h2 
+    {
+        font-size: 35px;
+    }
+    #blog .blog-box 
+    {
+        display: inline-block;
+    }
+    #blog .blog-box img 
+    {
+        display: block;
+        margin: auto;
+        width: 80%;
+    }
+    #blog .blog-box img:nth-child(2)
+    {
+        padding-bottom: 10px;
+        border-bottom: 1px red solid;
+    }
+    #blog .blog-box p 
+    {
+        display: block;
+        margin: auto;
+        width: 100%;
+        font-size: 80%;
+        padding-bottom: 10px;
+        border-bottom: 1px red solid;
+    }
+    #blog .blog-box p:nth-child(1)
+    {
+        border-bottom: none;
+    }
+    #blog .blog-box p span 
+    {
+        font-size: 120%;
+    }
+    /* ----  footer ---- */
+    footer .footer-boxs
+    {
+        display: inline-block;
+    }
+    footer .About-box
+    {
+        margin-top: 5%;
+    }
+    footer .social-box 
+    {
+        margin-top: 5%;
+    }
+
+  }
+
+  @media screen and (max-width: 480px)
+  {
+    header
+    {
+        height: 200px; 
+    }
+    header nav ul 
+    {
+        margin: -38px 50px;
+    }
+    header .logo h2 a
+    {
+        font-size: 25px;
+    }
+    #gallary h3 
+    {
+        font-size: 30px;
+    }
+
+    #gallary .gallary-sec 
+    {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: repeat(1, 5vw);
+        grid-gap: 10px;
+    }
+    .item1
+    {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .item2
+    {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 4;
+        grid-row-end: 6;
+    }
+    .item3
+    {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 7;
+        grid-row-end: 9;
+    }
+    .item4
+    {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 10;
+        grid-row-end: 12;
+    }
+    .item5
+    {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 13;
+        grid-row-end: 15;
+    }
+    .item6 
+    {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 16;
+        grid-row-end: 18;
+    }
+
+  }
+/*  ----  Media Query ---- */
